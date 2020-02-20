@@ -350,10 +350,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GDlib_Example/Pods-GDlib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GDlib/GDlib.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDlib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -525,7 +527,7 @@
 			baseConfigurationReference = 111237E7C5E54C55049C1A6A /* Pods-GDlib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 3.0;
 				DEVELOPMENT_TEAM = WRM5754N86;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDlib/GDlib-Prefix.pch";
@@ -543,7 +545,7 @@
 			baseConfigurationReference = 1815BD2CDBC38F6F7D519A67 /* Pods-GDlib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 3.0;
 				DEVELOPMENT_TEAM = WRM5754N86;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDlib/GDlib-Prefix.pch";
