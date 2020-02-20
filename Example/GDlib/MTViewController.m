@@ -7,6 +7,7 @@
 //
 
 #import "MTViewController.h"
+#import <Test.h>
 
 @interface MTViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [Test test];
 }
 
 - (void)didReceiveMemoryWarning
